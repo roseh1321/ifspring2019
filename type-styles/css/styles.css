@@ -1,0 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu: 100,200,400,600,800');
+
+/*font-weight
+font-style
+letter-spacing
+text-transform
+text-decoration*/
+
+body {
+  margin: 20px 50px 20px 50px;
+}
+h1 {
+  font-family: Ubuntu;
+  font-size: 30px;
+  text-align: center;
+}
+
+h2 {
+  font-family: arial;
+  font-size: 20px;
+  font-weight: normal;
+  text-align: center;
+}
+
+h3 {
+  font-family: arial;
+  font-size: 26px;
+}
+
+h4 {
+  font-family: arial;
+  font-size: 14px;
+}
+
+p {
+  font-family: Ubuntu;
+  font-size: 24px;
+}
+
+#one {
+  font-family: Ubuntu;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#two {
+  font-family: Ubuntu;
+  font-size: 24px;
+  font-style: italic;
+}
+
+#three {
+  font-family: Ubuntu;
+  font-size: 24px;
+  letter-spacing: 2px;
+}
+
+#four {
+  font-family: Ubuntu;
+  font-size: 24px;
+  text-transform: capitalize;
+}
+
+#five {
+  font-family: Ubuntu;
+  font-size: 24px;
+  text-decoration: underline;
+}
