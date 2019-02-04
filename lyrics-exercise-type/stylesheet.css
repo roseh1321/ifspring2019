@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Mukta:200,300,400,500,600,700,800');
+
+body {
+  font-family: mukta;
+  text-align: center;
+  color: white;
+  background-color: #FFC9D2;
+  text-shadow: .5px .5px #ff0000;
+  font-size: 2em;
+}
+
+.chorus {
+  font-style: italic;
+}
