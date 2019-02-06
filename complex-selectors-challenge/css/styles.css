@@ -1,0 +1,81 @@
+header {
+  margin-bottom: 3em;
+}
+
+p {
+  line-height: 1.6;
+}
+
+.see-all {
+  font-size: .8em;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+section h2 {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-weight: normal;
+}
+
+img {
+  width: 100%
+}
+
+.cast > ul > li {
+  width:25%
+}
+
+.shows h1 {
+	border-top: 1px solid;
+}
+
+nav .selected  a {
+	font-weight: bold;
+	color: black;
+}
+
+a div {
+	font-size: 0.8rem;
+}
+
+a div:last-child {
+	font-style: italic;
+}
+
+img + div {
+	font-weight: bold;
+}
+
+#game-of-thrones .seasons ul li:last-child:after {
+	content: "*";
+}
+
+#game-of-thrones .seasons:after {
+	content: "* Final Season";
+	font-size: 0.7rem;
+	color: #999;
+}
+
+/* done <li>Set the <code>margin-bottom</code> of the <code>header</code> to <code>3rem</code>.</li>
+done <li>Set the <code>line-height</code> of all paragraphs to <code>1.6</code>.</li>
+done <li>Make the "See All..." links <code>0.8em</code>, and <code>uppercase</code>.</li>
+done <li>Make the show titles <code>2.5rem</code>.</li>
+done <li>Make the section-titles <code>1rem</code> and <code>uppercase</code>.</li>
+done <li>Make all title fonts light weight.</li>
+done <li>Make the cast images <code>width:100%;</code></li>
+done <li>Make each castmember element <code>width:25%;</code></li>
+done <li>Add a 1px border above each show — <strong>without unintentionally adding borders elsewhere</strong>.</li>
+done <li>Make the navigation tab with the <code>.selected</code> class be bold and black.</li>
+done <li>Make the castmember labels <code>0.8rem</code>.</li>
+done <li>Make the actor/actress names bold.</li>
+done <li>Make the character names italic.</li>
+done <li>Add an asterisk (<code>*</code>) to the last year in the <em>Game of Thrones</em> seasons list.</li>
+done <li>Add the text <code>"* Final Season"</code> on the next line after the <em>Game of Thrones</em> season list. Make it <code>0.7rem</code>, and color it to be <code>#999</code>.</li>
+</ol>
