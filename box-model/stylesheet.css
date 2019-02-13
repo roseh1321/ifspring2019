@@ -1,0 +1,148 @@
+body {
+  background-image: url("https://wudesign.me/resources/html_tracing/images/bg.png");
+	background-position: center top;
+  min-height: 2380px;
+  margin: 0;
+  padding: 0;
+  font-family: 'Archivo Narrow', sans-serif;
+}
+
+#header {
+  background-image: url("background.jpg");
+  width: 100%;
+  height: 317px;
+  padding: 0;
+  margin: 0;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: white;
+  padding-top: 163px;
+}
+
+.obl {
+  font-style: italic;
+}
+
+h1 {
+	font-size: 80px;
+	margin: 0 auto;
+}
+
+h2 {
+	text-align: center;
+	font-size: 40px;
+	margin: 0 auto;
+}
+
+h3 {
+	font-size: 30px;
+	margin-top: 12px;
+}
+
+h4 {
+	font-size: 20px;
+	margin: 1px auto;
+}
+
+#first {
+  background-color: lavender;
+  height: 668px;
+  padding-top: 45px;
+}
+
+#first h2 {
+  padding-bottom: 18px;
+}
+
+#first p {
+  padding: 0px 95px 0 95px;
+  line-height: 25px;
+  font-size: 18px;
+}
+
+#first img {
+  float: right;
+  margin: 20px 97px 0px 35px;
+}
+
+#second {
+  background-color: lightblue;
+  height: 687px;
+}
+
+#second h2 {
+  padding: 45px 0 36px 1px;
+}
+
+#second p {
+  line-height: 26px;
+  font-size: 18px;
+  margin-top: 9px;
+}
+
+#second h4 {
+  margin-bottom: 0;
+  padding: bottom: 0;
+}
+
+#third {
+  background-color: lavender;
+  height: 354px;
+  text-align:center;
+    padding-top: 45px;
+}
+
+#third h2 {
+
+  margin-bottom: 38px;
+}
+
+#footer {
+  background-color: white;
+  height: 101px;
+}
+
+#footer p {
+  font-size: 18px;
+  margin-left: 96px;
+  margin-bottom: 60px;
+  margin-top: 2px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 200px 281px auto auto;
+  grid-template-rows: auto auto auto;
+  grid-row-gap: 21px;
+  margin: 0 125px 0 96px;
+}
+
+.text {
+  margin: 1px 30px 0 12px;
+}
+
+.image {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+#third p {
+	padding: 40px auto 0 auto;
+	font-size: 26px;
+	width: 720px;
+  text-align: center;
+	line-height: 35px;
+}
+
+#footer {
+	margin: 0 auto;
+	font-size: 10px;
+	padding-top: 41px;
+	height: 50px;
+}
+
+#center {
+  text-align: center;
+  margin: auto;
+}
