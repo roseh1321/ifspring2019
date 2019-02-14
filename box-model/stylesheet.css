@@ -112,9 +112,9 @@ h4 {
 
 .container {
   display: grid;
-  grid-template-columns: 200px 281px auto auto;
+  grid-template-columns: 145px 200px 280px auto auto 143px;
   grid-template-rows: auto auto auto;
-  grid-row-gap: 21px;
+  grid-row-gap: 19px;
   margin: 0 125px 0 96px;
 }
 
