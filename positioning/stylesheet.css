@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+  margin-top: 0;
+}
+
+#first{
+  float: right;
+}
+
+#second {
+  position: absolute;
+  right: 240px;
+  top: 846px;
+}
+
+#third {
+  position: fixed;
+  background-color: green;
+  right: 0;
+  top: 0;
+}
+
+#red {
+  background-color: red;
+  position: relative;
+  left: 550px;
+  z-index: 2;
+  position: absolute;
+}
+
+#black {
+  background-color: black;
+  position: relative;
+  left: 560px;
+  position: absolute;
+  margin-top: 10px;
+  z-index: 1;
+}
