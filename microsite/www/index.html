@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Guide to St.Louis">
+        <title>St. Louis</title>
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <body>
+        <div class="navBar">
+            <ul>
+                <li><img id="logo" src="logo.png">
+                <li>
+                <li><a class="active" href="/">Home</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="climate.html">Climate</a></li>
+                <li><a href="#thingstodo">Things to Do</a></li>
+                <li class="navButton"><a href="https://www.google.com/maps/d/u/0/viewer?mid=1aPfjBcBDfEwZgz9gAndEcfowih0&ll=38.89230202276841%2C-77.04058249999997&z=15">Map</a></li>
+            </ul>
+        </div>
+        <!-- parallax -->
+        <div id="parallax1">
+        </div>
+        <div id="mission">
+            <h1>St. Louis:<br></h1>
+            <h4>Your Guide to the Gateway to the West</h4>
+        </div>
+        <!-- map -->
+        <div class="mapouter">
+            <div class="gmap_canvas">
+                <iframe width="100%" height="530" id="gmap_canvas" src="https://maps.google.com/maps?q=st%2C%20louis&t=&z=5&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                </iframe><a href="https://www.crocothemes.net"></a>
+            </div>
+        </div>
+        <!-- css grid for things to do -->
+        <div class="maincontent">
+            <div class="thingstodo">
+                <div id="thingstodo">
+                    <h1>THINGS TO DO</h1>
+                </div>
+                <div class="fun">
+                    <img src="cm.png">
+                        <h2>FUN</h2>
+                    </a>
+                    <p>St. Louis has plenty of kid-friendly, family-oriented activities, that kids of all ages will enjoy. Whether it’s an animal encounter at the Zoo or exploring the City museum on your hands and knees – you can find something just right for your family in St. Louis!
+                    </p>
+                </div>
+                <div class="monuments">
+                    <img src="cardinals.png">
+                        <h2>SPORTS</h2>
+                    </a>
+                    <p>There’s a reason ESPN Magazine named us the “Ultimate Sports City.”  Fans always have something to cheer about in St. Louis.
+
+The 11-time World Series Champion St. Louis Cardinals are perennial contenders as the most dedicated baseball fans in the country descend on Busch Stadium clad in red.</p>
+                </div>
+                <div class="museums">
+                    <img src="slam.png">
+                        <h2>CULTURE</h2>
+                    </a>
+                    <p>Get your fill of arts & culture as St. Louis’ artistic flare is on display at museums and galleries of all sizes and subject matter. Check out Grand Center, the St. Louis Art Museum in Forest Park, and Citygarden!</p>
+                </div>
+            </div>
+            <div id="parallax2">
+            </div>
+            <div class="label">
+                <h1>PLACES TO EAT</h1>
+            </div>
+            <div id="endgradient">
+                <div class="placestoeat">
+                    <div class="foodphoto">
+                        <img id="food" src="goodfood.jpg">
+                    </div>
+                    <div class="foodcaption">
+                        <h2>RESTAURANT OF THE DAY: <br>BOUNDARY</h2>
+                        <p id="lowercase">BOUNDARY’S FOOD IS A MODERN INTERPRETATION OF COMFORTING CLASSICS. THE MENU OFFERS SHARED ITEMS, RAW BAR BITES AND FAMILY STYLE MAINS. THE BEVERAGE PROGRAM BOASTS 8 SIGNATURE COCKTAILS AND AN EXTENSIVE SELECTION OF “BROWN” BASED SPIRITS. THE WINE LIST SHOWCASES CLASSIC GRAPE VARIETIES FROM AROUND THE WORLD. BOUNDARY’S MENU IS MEANT TO BE VISITED OFTEN SO PORTIONS ARE GOOD AND PRICES ARE APPROACHABLE. IT CATERS TO EVERY MOOD WHETHER THAT IS AN EVENING OF LIBATIONS OR TUCKING INTO A HEARTY SUPPER.
+
+THE DINING ROOM OFFERS A BAR, THAT HAS DOUBLED IN SIZE. IT IS THE PERFECT PLACE FOR AN EVENING OF LIBATIONS OR DINING. LEATHER COUCHES IN A COMFORTING, YET LIVELY, ATMOSPHERE PROVIDE NOOKS TO TUCK INTO A HEARTY SUPPER OR NOSH ON SHARED PLATES.
+                        </p>
+                        <!-- insert table here-->
+                        <table cellspacing="20px">
+                            <tr>
+                                <th>HOURS</th>
+                                <th>11AM-9PM</th>
+                            </tr>
+                            <tr>
+                                <th>PRICE</th>
+                                <th>$$</th>
+                            </tr>
+                            <tr>
+                                <th>ADDRESS</th>
+                                <th>1915, 7036 Clayton Ave, <br>St. Louis, MO 63117</th>
+                            </tr>
+                        </table>
+                        <a class="readmore" href="https://www.stlmag.com/search/location/best-restaurants/#letter_filter=all&ord=last_modified&page=1"><br>For a list of more restaurants, click here.</a>
+                    </div>
+                </div>
+
+                <div id="planyourtrip">
+                </div>
+                <div class="form">
+                    <h1 class="white">Personalize Your St. Louis Experience</h1>
+                    <p class="white">Our personal trip planners will be in contact soon to make your visit to St. Louis unforgettable!</p>
+                    <form action="#home" method="get">
+                        <text>First Name:</text>
+                        <input type="text" name="name" placeholder="Name" required><br><br>
+                        <text>Last Name:</text>
+                        <input type="email" name="email" placeholder="Email" required><br>
+                        <h2 class="white">Describe Your Ideal Trip</h2>
+                        <textarea type="message" rows="10" column="200" placeholder="What you like to do, who you will be travelling with, time frame, etc." required></textarea>
+                        <br>
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
